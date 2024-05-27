@@ -20,7 +20,7 @@ const Technologies = () => {
                 <FaPython className="text-7xl text-yellow-400"/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaJava className="text-7xl text-blue-800"/>
+                <FaJava className="text-7xl text-white"/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaPhp className="text-7xl text-sky-900"/>
