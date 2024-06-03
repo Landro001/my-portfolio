@@ -7,3 +7,23 @@
 :root {
   font-family: "Montserrat", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(10 10 10 );
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 119, 198, 0.205);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
