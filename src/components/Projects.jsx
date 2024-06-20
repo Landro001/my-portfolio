@@ -21,13 +21,15 @@ const Projects = () => {
                         transition={{ duration: 1 }}
                         className="w-full lg:w-1/4"
                     >
-                        <img 
-                            src={project.image} 
-                            width={250} 
-                            height={150} 
-                            alt={project.title} 
-                            className="mb-6 rounded"
-                        />
+                        <a href="https://github.com/Landro001/angular-psn-store" target="_blank">
+                            <img 
+                                src={project.image} 
+                                width={250} 
+                                height={150} 
+                                alt={project.title} 
+                                className="mb-6 rounded"
+                            />
+                        </a>
                     </motion.div>
                     <motion.div 
                         whileInView={{ opacity: 1, x: 0 }}
